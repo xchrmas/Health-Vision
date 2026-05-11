@@ -8,6 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <ProjectReference Include="..\..\HealthVision.Core\HealthVision.Core.csproj" />
         <ProjectReference Include="..\HealthVision.Web.Client\HealthVision.Web.Client.csproj"/>
         <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="10.0.7"/>
     </ItemGroup>
