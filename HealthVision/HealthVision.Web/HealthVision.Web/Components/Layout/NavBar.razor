@@ -1,0 +1,59 @@
+﻿@inject NavigationManager Nav
+
+<header class="hv-nav">
+    <div class="hv-nav-inner hv-container">
+
+        <a href="/" class="hv-nav-logo">
+            <img src="/images/logo.png" alt="Health Vision" class="hv-nav-logo-img" />
+        </a>
+
+        <nav class="hv-nav-links" aria-label="Main navigation">
+            <a href="/explorer" class="hv-nav-link @IsActive("/explorer")">Explorer</a>
+            <a href="/ai-tutor" class="hv-nav-link @IsActive("/ai-tutor")">AI Tutor</a>
+            <a href="/cases"    class="hv-nav-link @IsActive("/cases")">Cases</a>
+            <a href="/pricing"  class="hv-nav-link @IsActive("/pricing")">Pricing</a>
+        </nav>
+
+        <div class="hv-nav-actions">
+            <a href="/login"    class="hv-btn hv-btn-ghost hv-btn-sm">Log in</a>
+            <a href="/register" class="hv-btn hv-btn-primary hv-btn-sm">Get started</a>
+        </div>
+
+        <button class="hv-nav-burger"
+                @onclick="ToggleMobile"
+                aria-label="Toggle navigation"
+                aria-expanded="@_mobileOpen">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+    </div>
+
+    <div class="hv-nav-mobile @(_mobileOpen ? "is-open" : "")">
+        <a href="/"         class="hv-nav-mobile-link" @onclick="CloseMobile">Home</a>
+        <a href="/explorer" class="hv-nav-mobile-link" @onclick="CloseMobile">Explorer</a>
+        <a href="/ai-tutor" class="hv-nav-mobile-link" @onclick="CloseMobile">AI Tutor</a>
+        <a href="/cases"    class="hv-nav-mobile-link" @onclick="CloseMobile">Cases</a>
+        <a href="/pricing"  class="hv-nav-mobile-link" @onclick="CloseMobile">Pricing</a>
+        <div class="hv-nav-mobile-actions">
+            <a href="/login"    class="hv-btn hv-btn-ghost hv-btn-sm">Log in</a>
+            <a href="/register" class="hv-btn hv-btn-primary hv-btn-sm">Get started</a>
+        </div>
+    </div>
+</header>
+
+@code {
+    private bool _mobileOpen = false;
+
+    private void ToggleMobile() => _mobileOpen = !_mobileOpen;
+    private void CloseMobile()  => _mobileOpen = false;
+
+    private string IsActive(string href)
+    {
+        var current = Nav.ToBaseRelativePath(Nav.Uri);
+        return ("/" + current).StartsWith(href, StringComparison.OrdinalIgnoreCase)
+            ? "is-active"
+            : string.Empty;
+    }
+}
