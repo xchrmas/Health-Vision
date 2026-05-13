@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="HealthVision.Web/wwwroot/images/logo.png" alt="HealthVision Logo" width="420"/>
+<img src="https://raw.githubusercontent.com/ТВО_ЮЗЕ/HealthVision/main/HealthVision.Web/wwwroot/images/logo.png" alt="HealthVision Logo" width="420"/>
 
 # HealthVision®
 
