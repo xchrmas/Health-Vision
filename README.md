@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/xchrmas/Health-Vision/main/HealthVision.png" alt="HealthVision Logo" width="420"/>
 
-# HealthVision®
+
 
 ### The world's most advanced AI-powered medical intelligence and 3D anatomy platform
 
