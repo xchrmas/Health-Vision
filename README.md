@@ -13,7 +13,7 @@
 [![Status](https://img.shields.io/badge/status-Active_Development-22c55e?style=flat-square)]()
 [![Architecture](https://img.shields.io/badge/architecture-RAG_+_Semantic_Kernel-8B5CF6?style=flat-square)]()
 
-**No competitor has built what this platform does.**
+
 HealthVision fuses photorealistic 3D anatomy, a clinical-grade AI intelligence layer,
 real-time differential diagnosis, and patient medical history analysis
 into a single unified platform — accessible from any device, free to start.
