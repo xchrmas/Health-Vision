@@ -1,4 +1,17 @@
-﻿<Router AppAssembly="typeof(Program).Assembly" AdditionalAssemblies="new[] { typeof(Client._Imports).Assembly }" NotFoundPage="typeof(Pages.NotFound)">
+﻿@*
+ * @file        Routes.razor
+ * @project     Health-Vision — 3D Interactive Human Anatomy Platform
+ * @author      Health-Vision
+ * @copyright   Copyright (c) 2026 Health-Vision. All Rights Reserved.
+ * @license     Proprietary — See LICENSE file for full terms.
+ *
+ * CONFIDENTIAL AND PROPRIETARY SOURCE CODE.
+ * Unauthorized copying, modification, or distribution is strictly prohibited.
+ * For licensing inquiries: legal@healthvision.io
+ *@
+
+
+<Router AppAssembly="typeof(Program).Assembly" AdditionalAssemblies="new[] { typeof(Client._Imports).Assembly }" NotFoundPage="typeof(Pages.NotFound)">
     <Found Context="routeData">
         <RouteView RouteData="routeData" DefaultLayout="typeof(Layout.MainLayout)"/>
         <FocusOnNavigate RouteData="routeData" Selector="h1"/>

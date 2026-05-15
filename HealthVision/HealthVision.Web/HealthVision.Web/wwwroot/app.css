@@ -1,3 +1,15 @@
+/*
+ * @file        app.css
+ * @project     Health-Vision — 3D Interactive Human Anatomy Platform
+ * @author      Health-Vision
+ * @copyright   Copyright (c) 2026 Health-Vision. All Rights Reserved.
+ * @license     Proprietary — See LICENSE file for full terms.
+ *
+ * CONFIDENTIAL AND PROPRIETARY SOURCE CODE.
+ * Unauthorized copying, modification, or distribution is strictly prohibited.
+ * For licensing inquiries: legal@healthvision.io
+ */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
 
 *, *::before, *::after {
