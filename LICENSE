@@ -1,0 +1,183 @@
+HEALTH-VISION PROPRIETARY SOFTWARE LICENSE AGREEMENT
+
+Version 1.0 | Effective Date: May 15, 2025
+
+Copyright (c) 2025 Health-Vision. All Rights Reserved.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+                        PROPRIETARY AND CONFIDENTIAL
+
+     THIS SOFTWARE AND ALL ASSOCIATED SOURCE CODE, OBJECT CODE, DOCUMENTATION,
+     DESIGN ASSETS, DATA STRUCTURES, ALGORITHMS, AND RELATED MATERIALS ARE THE
+     EXCLUSIVE INTELLECTUAL PROPERTY OF HEALTH-VISION AND ARE PROTECTED BY
+     APPLICABLE COPYRIGHT, TRADE SECRET, PATENT, AND OTHER INTELLECTUAL
+     PROPERTY LAWS AND INTERNATIONAL TREATIES.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ARTICLE 1 — DEFINITIONS
+
+1.1  "Software" means the Health-Vision platform, including without limitation
+     all source code (HTML, CSS, JavaScript, C#, and all other programming
+     languages), object code, compiled binaries, 3D models, anatomical data
+     structures, interactive modules, XR/AR/VR components, user interface
+     designs, graphical assets, databases, APIs, algorithms, and all associated
+     documentation, whether in electronic, printed, or any other form.
+
+1.2  "Owner" means Health-Vision and its successors, assigns, and licensees.
+
+1.3  "Authorized User" means any person or entity that has received express
+     written authorization from the Owner to use the Software.
+
+1.4  "Unauthorized Use" means any use, access, reproduction, distribution,
+     modification, or exploitation of the Software without prior express
+     written consent of the Owner.
+
+ARTICLE 2 — GRANT OF RIGHTS
+
+2.1  No License Granted. No license, right, or interest in the Software is
+     granted to any person or entity by virtue of the publication, display,
+     or availability of this Software in any repository, platform, or medium,
+     except as explicitly set forth in a separate written license agreement
+     signed by an authorized representative of the Owner.
+
+2.2  Reserved Rights. All rights not expressly granted herein are reserved
+     exclusively by the Owner. The absence of a license notice on any
+     individual file does not constitute a waiver of the Owner's rights
+     with respect to such file.
+
+ARTICLE 3 — PROHIBITED ACTS
+
+3.1  The following acts are STRICTLY PROHIBITED without the prior express
+     written consent of the Owner:
+
+     (a)  Copying, reproducing, or duplicating the Software or any portion
+          thereof, in whole or in part, by any means or in any medium;
+
+     (b)  Distributing, sublicensing, selling, renting, leasing, lending,
+          or otherwise transferring the Software or any rights therein to
+          any third party;
+
+     (c)  Modifying, adapting, translating, reverse engineering, decompiling,
+          disassembling, or creating derivative works based on the Software;
+
+     (d)  Removing, altering, obscuring, or circumventing any proprietary
+          notices, labels, copyright notices, or digital rights management
+          measures incorporated in or accompanying the Software;
+
+     (e)  Using the Software or any portion thereof as a basis for developing
+          competing products or services;
+
+     (f)  Accessing, scraping, harvesting, or extracting data, algorithms,
+          logic, 3D models, or any other component of the Software by
+          automated or manual means;
+
+     (g)  Publicly displaying, publicly performing, or transmitting the
+          Software in any manner not expressly authorized in writing by
+          the Owner;
+
+     (h)  Using the Software for any commercial purpose without a valid
+          commercial license issued by the Owner.
+
+ARTICLE 4 — INTELLECTUAL PROPERTY OWNERSHIP
+
+4.1  Ownership. The Software, including all copies, modifications, and
+     derivative works thereof, is and shall remain the exclusive property
+     of the Owner. Nothing in this Agreement shall be construed as
+     transferring ownership of any intellectual property right to any
+     third party.
+
+4.2  Trade Secrets. The Software contains valuable trade secrets and
+     confidential information belonging to the Owner. Any person who gains
+     access to the Software is obligated to maintain the confidentiality
+     thereof and shall not disclose any portion of the Software to any
+     third party.
+
+4.3  Moral Rights. The Owner expressly asserts and reserves all moral rights
+     in and to the Software as recognized under applicable law.
+
+ARTICLE 5 — DIGITAL MILLENNIUM COPYRIGHT ACT (DMCA) NOTICE
+
+5.1  The Owner hereby asserts its rights under the Digital Millennium
+     Copyright Act (17 U.S.C. § 512) and equivalent legislation in other
+     jurisdictions. Any unauthorized reproduction or distribution of this
+     Software, or any portion of it, may result in severe civil and criminal
+     penalties, and will be prosecuted to the maximum extent possible under
+     the law.
+
+5.2  DMCA Takedown. Reports of copyright infringement should be directed to:
+     legal@healthvision.io
+
+ARTICLE 6 — DISCLAIMER OF WARRANTIES
+
+6.1  THE SOFTWARE IS PROVIDED "AS IS" FOR AUTHORIZED USERS ONLY.
+     THE OWNER MAKES NO WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+     LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+     PURPOSE, NON-INFRINGEMENT, OR THAT THE SOFTWARE WILL MEET ANY
+     REQUIREMENTS OR BE UNINTERRUPTED OR ERROR-FREE.
+
+ARTICLE 7 — LIMITATION OF LIABILITY
+
+7.1  IN NO EVENT SHALL THE OWNER BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
+     SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING FROM AUTHORIZED
+     OR UNAUTHORIZED USE OF THE SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
+     OF SUCH DAMAGES.
+
+ARTICLE 8 — ENFORCEMENT AND REMEDIES
+
+8.1  Injunctive Relief. The Owner acknowledges that any unauthorized use,
+     disclosure, or distribution of the Software would cause irreparable
+     harm for which monetary damages would be an inadequate remedy. The
+     Owner shall be entitled to seek injunctive relief and other equitable
+     remedies in addition to all other remedies available at law.
+
+8.2  Damages. Any person found to be in violation of this License shall be
+     liable to the Owner for all damages suffered as a result of such
+     violation, including but not limited to lost profits, statutory damages,
+     attorneys' fees, and costs of litigation.
+
+8.3  Criminal Penalties. Unauthorized copying or distribution of copyrighted
+     software is a criminal offense under 17 U.S.C. § 506 and equivalent
+     laws in other jurisdictions, and may subject the infringer to criminal
+     prosecution and penalties including fines and imprisonment.
+
+ARTICLE 9 — GOVERNING LAW AND JURISDICTION
+
+9.1  This License shall be governed by and construed in accordance with
+     applicable international intellectual property law, including the
+     Berne Convention for the Protection of Literary and Artistic Works
+     (as revised at Paris on July 24, 1971), the Agreement on Trade-Related
+     Aspects of Intellectual Property Rights (TRIPS), and the WIPO Copyright
+     Treaty (WCT, 1996).
+
+9.2  All disputes arising in connection with this License shall be subject
+     to the jurisdiction agreed upon in writing by the parties, and in the
+     absence of such agreement, to the jurisdiction of the courts of the
+     country of the Owner's principal place of business.
+
+ARTICLE 10 — MISCELLANEOUS
+
+10.1 Entire Agreement. This License constitutes the entire agreement between
+     the parties with respect to the Software and supersedes all prior
+     negotiations, representations, warranties, and understandings.
+
+10.2 Severability. If any provision of this License is held to be invalid
+     or unenforceable, the remaining provisions shall continue in full force
+     and effect.
+
+10.3 No Waiver. Failure to enforce any provision of this License shall not
+     constitute a waiver of the Owner's right to enforce such provision
+     in the future.
+
+10.4 Contact for Licensing. For licensing inquiries, commercial partnerships,
+     or permissions requests, contact: legal@healthvision.io
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+     UNAUTHORIZED USE OF THIS SOFTWARE IS A VIOLATION OF COPYRIGHT LAW
+          AND MAY RESULT IN CIVIL AND CRIMINAL PROSECUTION.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Copyright (c) 2025 Health-Vision. All Rights Reserved.
