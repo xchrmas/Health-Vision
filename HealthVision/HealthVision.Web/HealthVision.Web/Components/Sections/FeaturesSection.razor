@@ -1,0 +1,213 @@
+﻿@*
+ * @file        FeaturesSection.razor
+ * @project     Health-Vision — 3D Interactive Human Anatomy Platform
+ * @author      Health-Vision
+ * @copyright   Copyright (c) 2026 Health-Vision. All Rights Reserved.
+ * @license     Proprietary — See LICENSE file for full terms.
+ *
+ * CONFIDENTIAL AND PROPRIETARY SOURCE CODE.
+ * Unauthorized copying, modification, or distribution is strictly prohibited.
+ * For licensing inquiries: legal@healthvision.io
+ *@
+
+<section class="hv-features">
+    <div class="hv-container">
+
+        <!-- Section header -->
+        <div class="hv-features-header">
+            <div class="hv-badge">Platform capabilities</div>
+            <h2 class="hv-features-title">
+                Three systems. One platform.<br />
+                <span class="hv-features-accent">Zero compromise.</span>
+            </h2>
+            <p class="hv-features-sub">
+                Built for the way medical professionals actually think —
+                anatomy, intelligence, and clinical reasoning working
+                together in real time.
+            </p>
+        </div>
+
+        <!-- Feature cards -->
+        <div class="hv-features-grid">
+
+            <!-- Card 1: 3D Explorer -->
+            <div class="hv-feat-card hv-feat-cyan">
+                <div class="hv-feat-preview">
+
+                    <div class="hv-feat-preview-label">3D Anatomy Explorer</div>
+
+                    <!-- Layer selector UI -->
+                    <div class="hv-3d-ui">
+                        <div class="hv-3d-layers">
+                            <div class="hv-3d-layer-title">Active layers</div>
+                            <div class="hv-3d-layer-row hv-layer-on">
+                                <span class="hv-layer-dot" style="background:#4fc3f7"></span>
+                                Skeletal system
+                                <span class="hv-layer-badge">Visible</span>
+                            </div>
+                            <div class="hv-3d-layer-row hv-layer-on">
+                                <span class="hv-layer-dot" style="background:#f87171"></span>
+                                Cardiovascular
+                                <span class="hv-layer-badge">Visible</span>
+                            </div>
+                            <div class="hv-3d-layer-row">
+                                <span class="hv-layer-dot" style="background:#34d399"></span>
+                                Muscular system
+                                <span class="hv-layer-badge hv-badge-off">Hidden</span>
+                            </div>
+                            <div class="hv-3d-layer-row">
+                                <span class="hv-layer-dot" style="background:#818cf8"></span>
+                                Nervous system
+                                <span class="hv-layer-badge hv-badge-off">Hidden</span>
+                            </div>
+                        </div>
+                        <div class="hv-3d-selected">
+                            <div class="hv-3d-sel-label">Selected structure</div>
+                            <div class="hv-3d-sel-name">Left coronary artery</div>
+                            <div class="hv-3d-sel-meta">Cardiovascular · Heart</div>
+                            <div class="hv-3d-sel-actions">
+                                <span class="hv-3d-sel-btn">Isolate</span>
+                                <span class="hv-3d-sel-btn">Annotate</span>
+                                <span class="hv-3d-sel-btn hv-sel-ai">Ask AI →</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hv-feat-lod">
+                        <span class="hv-lod-dot"></span>
+                        LOD · Level 2 — Organ detail
+                    </div>
+                </div>
+                <div class="hv-feat-body">
+                    <div class="hv-feat-num">01</div>
+                    <h3 class="hv-feat-title">3D Anatomy Explorer</h3>
+                    <p class="hv-feat-desc">
+                        Every bone, muscle, organ, nerve, and vessel rendered
+                        with three adaptive detail levels. Click any structure
+                        to isolate, annotate, and learn — in full 360°.
+                    </p>
+                    <div class="hv-feat-tags">
+                        <span class="hv-feat-tag">360° rotation</span>
+                        <span class="hv-feat-tag">Layer isolation</span>
+                        <span class="hv-feat-tag">LOD system</span>
+                        <span class="hv-feat-tag">50+ systems</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Dynamic Medical Technologies -->
+            <div class="hv-feat-card hv-feat-indigo">
+                <div class="hv-feat-preview">
+
+                    <div class="hv-feat-preview-label">Dynamic Medical Technologies</div>
+
+                    <!-- Chat UI -->
+                    <div class="hv-mini-chat">
+                        <div class="hv-mc-header">
+                            <span class="hv-mc-dot"></span>
+                            <span class="hv-mc-name">Dynamic Medical Technologies</span>
+                            <span class="hv-mc-online">Online</span>
+                        </div>
+                        <div class="hv-mc-body">
+                            <div class="hv-mc-user">What causes a stroke?</div>
+                            <div class="hv-mc-ai">
+                                <span class="hv-mc-strong">A stroke</span> occurs when blood
+                                supply to part of the brain is cut off — either by
+                                a clot (ischaemic, 87%) or a ruptured vessel
+                                (haemorrhagic, 13%).
+                                <div class="hv-mc-pill">🧠 Brain highlighted in 3D</div>
+                                <div class="hv-mc-sources">
+                                    <span>WHO ICD-11</span>
+                                    <span>PubMed</span>
+                                    <span>NICE 2024</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hv-mc-input-row">
+                            <div class="hv-mc-input">Ask anything about anatomy...</div>
+                            <button class="hv-mc-send" aria-label="Send">↑</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="hv-feat-body">
+                    <div class="hv-feat-num" style="color:#818cf8">02</div>
+                    <h3 class="hv-feat-title">Dynamic Medical Technologies</h3>
+                    <p class="hv-feat-desc">
+                        An AI teacher that explains any structure, condition,
+                        or mechanism — with cited sources, a live 3D highlight,
+                        and answers adapted to your expertise level.
+                    </p>
+                    <div class="hv-feat-tags">
+                        <span class="hv-feat-tag hv-tag-indigo">3–5 cited sources</span>
+                        <span class="hv-feat-tag hv-tag-indigo">Adaptive depth</span>
+                        <span class="hv-feat-tag hv-tag-indigo">3D linked</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: Clinical Case Engine -->
+            <div class="hv-feat-card hv-feat-green">
+                <div class="hv-feat-preview">
+
+                    <div class="hv-feat-preview-label">Clinical Case Engine</div>
+
+                    <!-- Differential diagnosis UI -->
+                    <div class="hv-case-ui">
+                        <div class="hv-case-symptom">
+                            <span class="hv-case-sym-label">Presenting complaint</span>
+                            <span class="hv-case-sym-text">Chest pain + dyspnoea</span>
+                        </div>
+                        <div class="hv-case-title">Differential diagnosis</div>
+                        <div class="hv-case-row">
+                            <div class="hv-case-info">
+                                <span class="hv-case-name">Pulmonary embolism</span>
+                                <div class="hv-case-bar-wrap">
+                                    <div class="hv-case-bar" style="width:74%;background:#f87171"></div>
+                                </div>
+                            </div>
+                            <span class="hv-case-tier hv-tier-danger">Danger</span>
+                        </div>
+                        <div class="hv-case-row">
+                            <div class="hv-case-info">
+                                <span class="hv-case-name">Angina pectoris</span>
+                                <div class="hv-case-bar-wrap">
+                                    <div class="hv-case-bar" style="width:58%;background:#4fc3f7"></div>
+                                </div>
+                            </div>
+                            <span class="hv-case-tier hv-tier-probable">Probable</span>
+                        </div>
+                        <div class="hv-case-row">
+                            <div class="hv-case-info">
+                                <span class="hv-case-name">Costochondritis</span>
+                                <div class="hv-case-bar-wrap">
+                                    <div class="hv-case-bar" style="width:28%;background:#818cf8"></div>
+                                </div>
+                            </div>
+                            <span class="hv-case-tier hv-tier-rare">Rare</span>
+                        </div>
+                        <div class="hv-case-footer">
+                            ❤ Coronary arteries highlighted in 3D
+                        </div>
+                    </div>
+
+                </div>
+                <div class="hv-feat-body">
+                    <div class="hv-feat-num" style="color:#34d399">03</div>
+                    <h3 class="hv-feat-title">Clinical Case Engine</h3>
+                    <p class="hv-feat-desc">
+                        Describe any symptom pattern and receive a three-tier
+                        differential — dangerous conditions screened first,
+                        probable causes second — with anatomy linked to each.
+                    </p>
+                    <div class="hv-feat-tags">
+                        <span class="hv-feat-tag hv-tag-green">Red-flag screening</span>
+                        <span class="hv-feat-tag hv-tag-green">SOCRATES intake</span>
+                        <span class="hv-feat-tag hv-tag-green">3-tier output</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
